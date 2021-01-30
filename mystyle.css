@@ -1,0 +1,39 @@
+body{
+  display: flex;
+  justify-content: center;
+  background: #ac4141;
+}
+
+body:hover{
+  background: #640375;
+}
+
+#container{
+position: relative;
+top: 150px;
+width: 250px;
+}
+
+  #kenobi{
+    position: relative;
+    background: #1459af;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+ul {
+ list-style-type: none;
+ padding: 0px;
+ display: flex;
+ justify-content: left;
+}
+
+a {
+  text-decoration: none;
+  background: #c3ee68;
+  padding: 15px;
+}
+
+a:hover{
+  background: green;
+}
